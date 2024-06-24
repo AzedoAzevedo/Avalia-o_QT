@@ -1,4 +1,4 @@
-## Sistema de Usuários Produzido em Django
+## Sistema de Usuários Produzido Em Django
 
 ### Descrição
 Este sistema permite visualizar e editar usuários cadastrados, sendo acessível apenas para administradores.
@@ -6,22 +6,16 @@ Este sistema permite visualizar e editar usuários cadastrados, sendo acessível
 ### Requisitos
 - Python (versão 3.10 ou superior)
 - Django (versão 3 ou superior)
-- Instalando as Dependências (`pip install -r requirements.txt`)
+- Instale as Dependências (`pip install -r requirements.txt`)
 
-### Instalação
-
-#### Clonando o repositório
-git clone [https://github.com/seu-usuario/nome-do-projeto.git
-cd nome-do-projeto](https://github.com/AzedoAzevedo/Avaliacao_QT.git)
-
-#### Configurando o ambiente virtual (opcional, mas recomendado)
-`python -m venv env
-source env/bin/activate` **No Windows** `use env\Scripts\activate`
+#### Se Precisar Clonar o Repositório
+git clone [https://github.com/AzedoAzevedo/Avaliacao_QT.git](https://github.com/AzedoAzevedo/Avaliacao_QT.git)
 
 #### Configuração do banco de dados
-`python manage.py migrate`
+`python3 manage.py migrate`
+`python3 manage.py makemigrations`
 
 ### Executando o servidor local
-`python manage.py runserver`
+`python3 manage.py runserver`
 
 Agora você pode acessar o sistema em `http://127.0.0.1:8000`.
