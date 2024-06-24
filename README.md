@@ -1,7 +1,7 @@
 ## Sistema de Usuários Produzido Em Django
 
 ### Descrição
-Este sistema permite visualizar e editar usuários cadastrados, sendo acessível apenas para administradores.
+No Sistema Você Basicamente Pode Ver Os Usúarios Cadastrados e Editar Se For Um Usúario Admin.
 
 ### Requisitos
 - Python (versão 3.10 ou superior)
@@ -13,6 +13,7 @@ git clone [https://github.com/AzedoAzevedo/Avaliacao_QT.git](https://github.com/
 
 #### Configuração do banco de dados
 `python3 manage.py migrate`
+
 `python3 manage.py makemigrations`
 
 ### Executando o servidor local
